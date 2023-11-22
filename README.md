@@ -1,4 +1,4 @@
-# SuperLim-2-Testing
+# SuperLim
 
 This repository implements experiments/baselines for SuperLim 2.
 
@@ -18,8 +18,8 @@ This repository implements experiments/baselines for SuperLim 2.
 ### Setup Repository (optional)
 
 ```
-1. git clone git@github.com:JoeyOhman/SuperLim-2-Testing.git
-2. cd SuperLim-2-Testing
+1. git clone git@github.com:aidotse/superlim-baselines.git
+2. cd superlim-baselines
 3. pip install -r requirements.txt
 4. tmux new -s exp
 5. tmux attach -t exp
