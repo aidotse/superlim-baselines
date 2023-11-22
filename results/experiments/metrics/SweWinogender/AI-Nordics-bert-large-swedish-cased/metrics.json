@@ -1,0 +1,24 @@
+{
+	"task": "SweWinogender",
+	"model": "AI-Nordics/bert-large-swedish-cased",
+	"metric": "parity",
+	"direction": "max",
+	"parity": 1.0,
+	"krippendorff_nominal": -0.3322649572649572,
+	"accuracy": 0.5,
+	"hyperparameters": {
+		"learning_rate": 1e-05,
+		"hps_analysis": {
+			"metrics": [
+				0.7498654885261378,
+				0.7447109462966801
+			],
+			"std": 0.0025772711147288296
+		},
+		"batch_size": 128,
+		"num_train_epochs": 10,
+		"warmup_ratio": 0.06,
+		"weight_decay": 0.1,
+		"fp16": true
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"task": "SweMNLI",
+	"model": "KB/bert-base-swedish-cased",
+	"metric": "krippendorff_nominal",
+	"direction": "max",
+	"eval": 0.7262385072455041,
+	"test": 0.3494901114517678,
+	"eval_metrics_obj": {
+		"eval_loss": 0.5169442892074585,
+		"eval_krippendorff_nominal": 0.7262385072455041,
+		"eval_accuracy": 0.817524197656648,
+		"eval_runtime": 7.7751,
+		"eval_samples_per_second": 1262.36,
+		"eval_steps_per_second": 19.807
+	},
+	"test_metrics_obj": {
+		"test_loss": 1.5494787693023682,
+		"test_krippendorff_nominal": 0.3494901114517678,
+		"test_accuracy": 0.5942028985507246,
+		"test_runtime": 0.6712,
+		"test_samples_per_second": 1644.927,
+		"test_steps_per_second": 26.819
+	},
+	"hyperparameters": {
+		"learning_rate": 4e-05,
+		"hps_analysis": {
+			"metrics": [
+				0.7172472904252285,
+				0.7262385072455041
+			],
+			"std": 0.004495608410137797
+		},
+		"batch_size": 128,
+		"num_train_epochs": 10,
+		"warmup_ratio": 0.06,
+		"weight_decay": 0.1,
+		"fp16": true
+	}
+}

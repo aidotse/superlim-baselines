@@ -1,0 +1,24 @@
+{
+	"task": "SweWinogender",
+	"model": "xlm-roberta-large",
+	"metric": "parity",
+	"direction": "max",
+	"parity": 0.9903846153846154,
+	"krippendorff_nominal": -0.31136180553917114,
+	"accuracy": 0.5,
+	"hyperparameters": {
+		"learning_rate": 1e-05,
+		"hps_analysis": {
+			"metrics": [
+				0.7903492219953366,
+				0.7735385219941628
+			],
+			"std": 0.008405350000586898
+		},
+		"batch_size": 128,
+		"num_train_epochs": 10,
+		"warmup_ratio": 0.06,
+		"weight_decay": 0.1,
+		"fp16": true
+	}
+}

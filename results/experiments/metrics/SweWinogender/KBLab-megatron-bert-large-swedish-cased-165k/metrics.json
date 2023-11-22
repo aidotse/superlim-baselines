@@ -1,0 +1,24 @@
+{
+	"task": "SweWinogender",
+	"model": "KBLab/megatron-bert-large-swedish-cased-165k",
+	"metric": "parity",
+	"direction": "max",
+	"parity": 0.9855769230769231,
+	"krippendorff_nominal": -0.3097851866910619,
+	"accuracy": 0.5032051282051282,
+	"hyperparameters": {
+		"learning_rate": 4e-05,
+		"hps_analysis": {
+			"metrics": [
+				0.7718936018657662,
+				0.774270397159697
+			],
+			"std": 0.0011883976469654334
+		},
+		"batch_size": 128,
+		"num_train_epochs": 10,
+		"warmup_ratio": 0.06,
+		"weight_decay": 0.1,
+		"fp16": true
+	}
+}

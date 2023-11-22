@@ -1,0 +1,24 @@
+{
+	"task": "SweWinogender",
+	"model": "NbAiLab/nb-bert-base",
+	"metric": "parity",
+	"direction": "max",
+	"parity": 0.9951923076923077,
+	"krippendorff_nominal": -0.311728601196837,
+	"accuracy": 0.4951923076923077,
+	"hyperparameters": {
+		"learning_rate": 4e-05,
+		"hps_analysis": {
+			"metrics": [
+				0.7094797873736297,
+				0.7201336710279826
+			],
+			"std": 0.005326941827176468
+		},
+		"batch_size": 128,
+		"num_train_epochs": 10,
+		"warmup_ratio": 0.06,
+		"weight_decay": 0.1,
+		"fp16": true
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"task": "SweMNLI",
+	"model": "NbAiLab/nb-bert-base",
+	"metric": "krippendorff_nominal",
+	"direction": "max",
+	"eval": 0.7201336710279826,
+	"test": 0.31438818952674796,
+	"eval_metrics_obj": {
+		"eval_loss": 0.5110130310058594,
+		"eval_krippendorff_nominal": 0.7201336710279826,
+		"eval_accuracy": 0.8134488028527763,
+		"eval_runtime": 6.6082,
+		"eval_samples_per_second": 1485.282,
+		"eval_steps_per_second": 23.304
+	},
+	"test_metrics_obj": {
+		"test_loss": 1.5320559740066528,
+		"test_krippendorff_nominal": 0.31438818952674796,
+		"test_accuracy": 0.5615942028985508,
+		"test_runtime": 0.6577,
+		"test_samples_per_second": 1678.596,
+		"test_steps_per_second": 27.368
+	},
+	"hyperparameters": {
+		"learning_rate": 4e-05,
+		"hps_analysis": {
+			"metrics": [
+				0.7094797873736297,
+				0.7201336710279826
+			],
+			"std": 0.005326941827176468
+		},
+		"batch_size": 128,
+		"num_train_epochs": 10,
+		"warmup_ratio": 0.06,
+		"weight_decay": 0.1,
+		"fp16": true
+	}
+}

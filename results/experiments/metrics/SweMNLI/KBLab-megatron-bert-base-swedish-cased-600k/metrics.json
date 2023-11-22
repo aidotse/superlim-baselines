@@ -1,0 +1,39 @@
+{
+	"task": "SweMNLI",
+	"model": "KBLab/megatron-bert-base-swedish-cased-600k",
+	"metric": "krippendorff_nominal",
+	"direction": "max",
+	"eval": 0.7386506026156453,
+	"test": 0.3629898122025499,
+	"eval_metrics_obj": {
+		"eval_loss": 0.5368318557739258,
+		"eval_krippendorff_nominal": 0.7386506026156453,
+		"eval_accuracy": 0.825776872134488,
+		"eval_runtime": 6.5423,
+		"eval_samples_per_second": 1500.246,
+		"eval_steps_per_second": 23.539
+	},
+	"test_metrics_obj": {
+		"test_loss": 1.5312159061431885,
+		"test_krippendorff_nominal": 0.3629898122025499,
+		"test_accuracy": 0.5942028985507246,
+		"test_runtime": 0.6538,
+		"test_samples_per_second": 1688.566,
+		"test_steps_per_second": 27.531
+	},
+	"hyperparameters": {
+		"learning_rate": 4e-05,
+		"hps_analysis": {
+			"metrics": [
+				0.7354357936605624,
+				0.7386506026156453
+			],
+			"std": 0.0016074044775414298
+		},
+		"batch_size": 128,
+		"num_train_epochs": 10,
+		"warmup_ratio": 0.06,
+		"weight_decay": 0.1,
+		"fp16": true
+	}
+}

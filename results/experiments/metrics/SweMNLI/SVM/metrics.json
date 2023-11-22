@@ -1,0 +1,8 @@
+{
+	"task": "SweMNLI",
+	"model": "SVM",
+	"metric": "krippendorff_nominal",
+	"direction": "max",
+	"eval": 0.21708110610345932,
+	"test": 0.026040139830601938
+}

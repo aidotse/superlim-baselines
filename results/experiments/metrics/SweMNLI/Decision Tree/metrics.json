@@ -1,0 +1,8 @@
+{
+	"task": "SweMNLI",
+	"model": "Decision Tree",
+	"metric": "krippendorff_nominal",
+	"direction": "max",
+	"eval": 0.18747256354941122,
+	"test": 0.03727183792461075
+}

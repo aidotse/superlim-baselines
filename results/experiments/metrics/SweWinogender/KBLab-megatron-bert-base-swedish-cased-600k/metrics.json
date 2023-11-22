@@ -1,0 +1,24 @@
+{
+	"task": "SweWinogender",
+	"model": "KBLab/megatron-bert-base-swedish-cased-600k",
+	"metric": "parity",
+	"direction": "max",
+	"parity": 0.9903846153846154,
+	"krippendorff_nominal": -0.31677197890812536,
+	"accuracy": 0.5016025641025641,
+	"hyperparameters": {
+		"learning_rate": 4e-05,
+		"hps_analysis": {
+			"metrics": [
+				0.7354357936605624,
+				0.7386506026156453
+			],
+			"std": 0.0016074044775414298
+		},
+		"batch_size": 128,
+		"num_train_epochs": 10,
+		"warmup_ratio": 0.06,
+		"weight_decay": 0.1,
+		"fp16": true
+	}
+}

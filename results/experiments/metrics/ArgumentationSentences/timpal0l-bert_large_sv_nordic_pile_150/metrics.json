@@ -1,0 +1,41 @@
+{
+	"task": "ArgumentationSentences",
+	"model": "timpal0l/bert_large_sv_nordic_pile_150",
+	"metric": "krippendorff_nominal",
+	"direction": "max",
+	"eval": 0.9235432861374906,
+	"test": 0.5284166917817092,
+	"eval_metrics_obj": {
+		"eval_loss": 0.21132118999958038,
+		"eval_krippendorff_nominal": 0.9235432861374906,
+		"eval_accuracy": 0.9506666666666667,
+		"eval_runtime": 1.4043,
+		"eval_samples_per_second": 534.057,
+		"eval_steps_per_second": 8.545
+	},
+	"test_metrics_obj": {
+		"test_loss": 1.2446614503860474,
+		"test_krippendorff_nominal": 0.5284166917817092,
+		"test_accuracy": 0.6901408450704225,
+		"test_runtime": 0.9084,
+		"test_samples_per_second": 1172.333,
+		"test_steps_per_second": 18.713
+	},
+	"hyperparameters": {
+		"learning_rate": 3e-05,
+		"hps_analysis": {
+			"metrics": [
+				0.7122513255552798,
+				0.8845395763901974,
+				0.9235432861374906,
+				0.9213236390959166
+			],
+			"std": 0.08693318186538546
+		},
+		"batch_size": 128,
+		"num_train_epochs": 10,
+		"warmup_ratio": 0.06,
+		"weight_decay": 0.1,
+		"fp16": true
+	}
+}

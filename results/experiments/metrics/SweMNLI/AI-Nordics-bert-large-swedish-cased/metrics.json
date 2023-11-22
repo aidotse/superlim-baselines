@@ -1,0 +1,39 @@
+{
+	"task": "SweMNLI",
+	"model": "AI-Nordics/bert-large-swedish-cased",
+	"metric": "krippendorff_nominal",
+	"direction": "max",
+	"eval": 0.7498654885261378,
+	"test": 0.3468945850375609,
+	"eval_metrics_obj": {
+		"eval_loss": 0.4461708068847656,
+		"eval_krippendorff_nominal": 0.7498654885261378,
+		"eval_accuracy": 0.8333163525216505,
+		"eval_runtime": 13.2199,
+		"eval_samples_per_second": 742.441,
+		"eval_steps_per_second": 11.649
+	},
+	"test_metrics_obj": {
+		"test_loss": 1.3538293838500977,
+		"test_krippendorff_nominal": 0.3468945850375609,
+		"test_accuracy": 0.5887681159420289,
+		"test_runtime": 1.2804,
+		"test_samples_per_second": 862.212,
+		"test_steps_per_second": 14.058
+	},
+	"hyperparameters": {
+		"learning_rate": 1e-05,
+		"hps_analysis": {
+			"metrics": [
+				0.7498654885261378,
+				0.7447109462966801
+			],
+			"std": 0.0025772711147288296
+		},
+		"batch_size": 128,
+		"num_train_epochs": 10,
+		"warmup_ratio": 0.06,
+		"weight_decay": 0.1,
+		"fp16": true
+	}
+}

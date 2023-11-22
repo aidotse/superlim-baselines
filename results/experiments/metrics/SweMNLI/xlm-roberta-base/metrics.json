@@ -1,0 +1,39 @@
+{
+	"task": "SweMNLI",
+	"model": "xlm-roberta-base",
+	"metric": "krippendorff_nominal",
+	"direction": "max",
+	"eval": 0.7154810340558422,
+	"test": 0.31833378535760437,
+	"eval_metrics_obj": {
+		"eval_loss": 0.5603406429290771,
+		"eval_krippendorff_nominal": 0.7154810340558422,
+		"eval_accuracy": 0.8103922567498727,
+		"eval_runtime": 7.0057,
+		"eval_samples_per_second": 1401.001,
+		"eval_steps_per_second": 21.982
+	},
+	"test_metrics_obj": {
+		"test_loss": 1.5983245372772217,
+		"test_krippendorff_nominal": 0.31833378535760437,
+		"test_accuracy": 0.5615942028985508,
+		"test_runtime": 0.6059,
+		"test_samples_per_second": 1821.995,
+		"test_steps_per_second": 29.706
+	},
+	"hyperparameters": {
+		"learning_rate": 1e-05,
+		"hps_analysis": {
+			"metrics": [
+				0.7154810340558422,
+				0.7121971910534015
+			],
+			"std": 0.0016419215012203336
+		},
+		"batch_size": 128,
+		"num_train_epochs": 10,
+		"warmup_ratio": 0.06,
+		"weight_decay": 0.1,
+		"fp16": true
+	}
+}

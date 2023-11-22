@@ -1,0 +1,8 @@
+{
+	"task": "SweMNLI",
+	"model": "MaxFreq/Avg",
+	"metric": "krippendorff_nominal",
+	"direction": "max",
+	"eval": -0.33769934408678215,
+	"test": -0.4040495949803431
+}

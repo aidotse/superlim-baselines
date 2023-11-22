@@ -1,0 +1,24 @@
+{
+	"task": "SweWinogender",
+	"model": "KB/bert-base-swedish-cased",
+	"metric": "parity",
+	"direction": "max",
+	"parity": 0.9615384615384616,
+	"krippendorff_nominal": -0.295444663867638,
+	"accuracy": 0.4983974358974359,
+	"hyperparameters": {
+		"learning_rate": 4e-05,
+		"hps_analysis": {
+			"metrics": [
+				0.7172472904252285,
+				0.7262385072455041
+			],
+			"std": 0.004495608410137797
+		},
+		"batch_size": 128,
+		"num_train_epochs": 10,
+		"warmup_ratio": 0.06,
+		"weight_decay": 0.1,
+		"fp16": true
+	}
+}

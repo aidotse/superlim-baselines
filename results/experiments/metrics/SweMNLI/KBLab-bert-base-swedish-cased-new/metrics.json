@@ -1,0 +1,39 @@
+{
+	"task": "SweMNLI",
+	"model": "KBLab/bert-base-swedish-cased-new",
+	"metric": "krippendorff_nominal",
+	"direction": "max",
+	"eval": 0.7288514253027341,
+	"test": 0.33771980818157665,
+	"eval_metrics_obj": {
+		"eval_loss": 0.551842212677002,
+		"eval_krippendorff_nominal": 0.7288514253027341,
+		"eval_accuracy": 0.8192562404482935,
+		"eval_runtime": 6.6681,
+		"eval_samples_per_second": 1471.927,
+		"eval_steps_per_second": 23.095
+	},
+	"test_metrics_obj": {
+		"test_loss": 1.6096266508102417,
+		"test_krippendorff_nominal": 0.33771980818157665,
+		"test_accuracy": 0.5815217391304348,
+		"test_runtime": 0.6531,
+		"test_samples_per_second": 1690.325,
+		"test_steps_per_second": 27.56
+	},
+	"hyperparameters": {
+		"learning_rate": 4e-05,
+		"hps_analysis": {
+			"metrics": [
+				0.7244477650958949,
+				0.7288514253027341
+			],
+			"std": 0.0022018301034195664
+		},
+		"batch_size": 128,
+		"num_train_epochs": 10,
+		"warmup_ratio": 0.06,
+		"weight_decay": 0.1,
+		"fp16": true
+	}
+}

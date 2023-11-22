@@ -1,0 +1,39 @@
+{
+	"task": "SweMNLI",
+	"model": "KBLab/megatron-bert-large-swedish-cased-165k",
+	"metric": "krippendorff_nominal",
+	"direction": "max",
+	"eval": 0.774270397159697,
+	"test": 0.39294689184407694,
+	"eval_metrics_obj": {
+		"eval_loss": 0.4016922116279602,
+		"eval_krippendorff_nominal": 0.774270397159697,
+		"eval_accuracy": 0.8495160468670403,
+		"eval_runtime": 13.1084,
+		"eval_samples_per_second": 748.757,
+		"eval_steps_per_second": 11.748
+	},
+	"test_metrics_obj": {
+		"test_loss": 1.273987889289856,
+		"test_krippendorff_nominal": 0.39294689184407694,
+		"test_accuracy": 0.6141304347826086,
+		"test_runtime": 1.2753,
+		"test_samples_per_second": 865.708,
+		"test_steps_per_second": 14.115
+	},
+	"hyperparameters": {
+		"learning_rate": 4e-05,
+		"hps_analysis": {
+			"metrics": [
+				0.7718936018657662,
+				0.774270397159697
+			],
+			"std": 0.0011883976469654334
+		},
+		"batch_size": 128,
+		"num_train_epochs": 10,
+		"warmup_ratio": 0.06,
+		"weight_decay": 0.1,
+		"fp16": true
+	}
+}
